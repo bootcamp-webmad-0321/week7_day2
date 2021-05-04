@@ -34,7 +34,7 @@ class DynamicMovies extends Component {
 
                 <h3>Listado dinámico de películas</h3>
 
-                <button onClick={() => this.toggleOscarMovies()}>Mostrar películas con oscar</button>
+                <button onClick={() => this.toggleOscarMovies()}>{this.state.showOscarAwarded ? 'Mostrar películas sin oscar' : 'Mostrar películas con oscar'}</button>
 
                 {
                     filteredMovies.map(elm => <MovieCardImproved key={elm._id} deleteOneMovie={() => this.deleteMovie(elm._id)} title={elm.title} director={elm.director} hasOscar={elm.hasOscar} rating={elm.rating} />)
