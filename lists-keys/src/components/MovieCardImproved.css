@@ -1,0 +1,25 @@
+.movie-card-improved {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: calc(33.33% - 60px);
+    margin: 10px;
+    font-size: .7em;
+}
+
+
+.movie-card-improved p {
+    font-size: .8em;
+}
+
+
+.movie-card-improved button {
+    font-size: .8em;
+    width: 100%;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
